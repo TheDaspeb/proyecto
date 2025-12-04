@@ -1,0 +1,77 @@
+nav {
+    border: inset rgb(207, 219, 219) 3px;
+    font-family: "Science Gothic", sans-serif;
+    gap: 30px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    gap: 30px;
+    margin-left: 140px;
+    margin-right: 140px;
+    color: white;
+}
+
+img{
+    border: 5px;
+    box-shadow: 6px, 6px, 12px rgba(0, 0, 0, 0.3);
+    border-radius: 1.5rem;
+    
+}
+
+body{
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.486)),
+    url(./img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+#final {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1000;
+    width: auto;
+}
+
+#final a {
+    display: block;
+    background-color: #0073ff;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 1.5s;
+}
+
+h1 {
+    color: white;
+
+}
+
+.yo{
+    background-color: rgba(49, 146, 146, 0.425);
+    width: 900px;
+    height: 500px;
+    border-radius: 1.5rem;
+    padding-top: 15px;
+    
+ 
+
+
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+   
