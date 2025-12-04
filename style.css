@@ -72,6 +72,8 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 95%;
 
 }
 
@@ -85,7 +87,38 @@ h1 {
 .yo:hover{
     transform: translateY(-5px);
     box-shadow: 0 12px 25px rgb(96, 212, 224);
-    transition: 0.3s;
-
 }
-   
+
+@media (max-width: 768px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    nav a {
+        margin: 0;
+    }
+
+    .yo {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .yo img {
+        width: 80%;
+        max-width: 250px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+}
