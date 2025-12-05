@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 nav {
     border: inset rgb(207, 219, 219) 3px;
     font-family: "Science Gothic", sans-serif;
@@ -58,7 +62,6 @@ h1 {
     font-size: 49.5px;
     font-family: "UnifrakturMaguntia", cursive;
 
-
 }
 
 .yo{
@@ -73,8 +76,11 @@ h1 {
     justify-content: center;
     align-items: center;
     transition: transform 0.3s, box-shadow 0.3s;
-    max-width: 95%;
+}
 
+.yo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgb(96, 212, 224);
 }
 
 .cajita{
@@ -84,41 +90,61 @@ h1 {
     align-items: center;
 }
 
-.yo:hover{
-    transform: translateY(-5px);
-    box-shadow: 0 12px 25px rgb(96, 212, 224);
+h2 {
+    font-family: "UnifrakturMaguntia", cursive;
+    font-size: 39px;
+    color: rgba(66, 178, 189, 0.609);   
 }
 
-@media (max-width: 768px) {
+#sobre-mi{
+    background-color: rgba(49, 146, 146, 0.425);
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    padding-top: 15px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
 
-    body {
-        font-size: 16px;
-    }
+#sobre-mi:hover{
+     transform: translateY(-2px);
+    box-shadow: 0 12px 25px rgb(255, 0, 0);
+}
 
-    nav {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        padding: 10px 0;
-    }
+section h2 {
+    text-align: center;
+}
 
-    nav a {
-        margin: 0;
-    }
+section h3 {
+    color: rgb(93, 145, 191)
+}
 
-    .yo {
-        width: 100%;
-        height: auto;
-        padding: 20px;
-        margin-top: 20px;
-    }
+.python {
+    background: rgba(51, 99, 148, 0.502);
+    width: 350px;
+    height: auto;
+    border-radius: 18px;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+    align-items: center;
+   
 
-    .yo img {
-        width: 80%;
-        max-width: 250px;
-    }
+}
 
-    h1 {
-        font-size: 35px;
-    }
+
+
+
+.Proyectos {
+    display: flex;
+
+}
+
+h2{
+    text-align: center;
 }
