@@ -47,7 +47,7 @@ body{
 
 #final a {
     display: block;
-    background-color: #0073ff;
+    background-color: #37b3c9b2;
     color: white;
     padding: 12px 18px;
     border-radius: 15px;
@@ -110,7 +110,7 @@ h2 {
 }
 
 #sobre-mi:hover{
-     transform: translateY(-2px);
+    transform: translateY(-2px);
     box-shadow: 0 12px 25px rgb(255, 0, 0);
 }
 
@@ -124,7 +124,7 @@ section h3 {
 
 .python {
     background: rgba(51, 99, 148, 0.502);
-    width: 350px;
+    width: 300px;
     height: auto;
     border-radius: 18px;
     margin: 2rem;
@@ -134,11 +134,13 @@ section h3 {
     padding: 3rem;
     align-items: center;
    
-
 }
 
+div a{
+    color: rgb(129, 189, 187);
+    text-decoration: none;
 
-
+}
 
 .Proyectos {
     display: flex;
@@ -147,4 +149,118 @@ section h3 {
 
 h2{
     text-align: center;
+}
+
+.HTML {
+    background: rgba(51, 99, 148, 0.502);
+    width: 300px;
+    height: auto;
+    border-radius: 18px;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+    align-items: center;
+}
+
+.javascrip{
+    background: rgba(51, 99, 148, 0.502);
+    width: 300px;
+    height: auto;
+    border-radius: 18px;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+    align-items: center;
+}
+
+.python:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 15px rgb(96, 212, 224);
+}
+
+.HTML:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 15px rgb(96, 224, 134);
+}
+
+.javascrip:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 15px rgb(241, 158, 4);
+}
+
+.Ronny {
+    background: rgba(51, 99, 148, 0.502);
+    width: 500px;
+    height: 450px;
+    border-radius: 18px;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+    align-items: center;    
+}
+
+.Ronny:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 15px rgb(0, 0, 0);
+}
+
+.Bianca{
+    background: rgba(51, 99, 148, 0.502);
+    width: 500px;
+    height: 450px;
+    border-radius: 18px;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+    align-items: center;
+}
+
+.Bianca:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 15px rgba(255, 255, 255, 0.651);
+}
+
+.Trixy{
+    background: rgba(51, 99, 148, 0.502);
+    width: 500px;
+    height: auto;
+    border-radius: 18px;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+    align-items: center;
+}
+
+.Trixy:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 15px rgba(124, 71, 177, 0.836);
+}
+
+#volver {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1000;
+    width: auto;
+}
+
+#volver a {
+    display: block;
+    background-color: #37b3c9b2;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 1.5s;
 }
