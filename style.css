@@ -3,13 +3,18 @@ html {
 }
 
 nav {
-    border: inset rgb(207, 219, 219) 3px;
+    background-color: rgba(64, 145, 148, 0.438);
+    padding: 10px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
     font-family: "Science Gothic", sans-serif;
     gap: 30px;
     text-align: center;
 }
 
 nav a {
+    font-style: italic;
     text-decoration: none;
     gap: 30px;
     margin-left: 140px;
@@ -192,59 +197,6 @@ h2{
     box-shadow: 0 12px 15px rgb(241, 158, 4);
 }
 
-.Ronny {
-    background: rgba(51, 99, 148, 0.502);
-    width: 500px;
-    height: 450px;
-    border-radius: 18px;
-    margin: 2rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 3rem;
-    align-items: center;    
-}
-
-.Ronny:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 15px rgb(0, 0, 0);
-}
-
-.Bianca{
-    background: rgba(51, 99, 148, 0.502);
-    width: 500px;
-    height: 450px;
-    border-radius: 18px;
-    margin: 2rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 3rem;
-    align-items: center;
-}
-
-.Bianca:hover{
-    transform: translateY(-5px);
-    box-shadow: 0 12px 15px rgba(255, 255, 255, 0.651);
-}
-
-.Trixy{
-    background: rgba(51, 99, 148, 0.502);
-    width: 500px;
-    height: auto;
-    border-radius: 18px;
-    margin: 2rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 3rem;
-    align-items: center;
-}
-
-.Trixy:hover{
-    transform: translateY(-5px);
-    box-shadow: 0 12px 15px rgba(124, 71, 177, 0.836);
-}
 
 #volver {
     position: fixed;
@@ -263,4 +215,80 @@ h2{
     text-decoration: none;
     font-weight: bold;
     transition: 1.5s;
+}
+
+#volver a:hover {
+    background-color: #00e1ff;
+}   
+
+.gatos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    flex-wrap: wrap;
+    height: auto;
+   
+}
+
+.gato{
+    background: rgba(51, 99, 148, 0.502);
+    width: 500px;
+    height: auto;
+    border-radius: 18px;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+    align-items: center;
+}
+
+.gato.li1:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 15px rgb(0, 0, 0);
+}
+
+.gato.li2:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 15px rgba(255, 255, 255, 0.651);
+}
+.gato.li3:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 15px rgba(124, 71, 177, 0.836);
+}
+
+.mascota {
+    background: rgba(51, 99, 148, 0.502);
+    width: 500px;
+    height: auto;
+    border-radius: 18px;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+    align-items: center;
+}
+
+.mascotas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.mascota.la1:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 15px rgba(168, 221, 217, 0.644);
+}
+
+.mascota.la2:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 15px rgba(212, 128, 31, 0.726);
+}
+
+.mascota.la3:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 15px rgba(159, 26, 163, 0.692);
 }
